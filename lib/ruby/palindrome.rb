@@ -4,6 +4,7 @@ require_relative "palindrome/version"
 
 class String 
   def palindrome?
-    #self.reverse == self
+   letters = scan(/[a-zA-Z]/).join.downcase
+   letters == letters.reverse
   end
 end
