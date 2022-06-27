@@ -15,5 +15,9 @@ RSpec.describe Ruby::Palindrome do
 
   it "is a palindrome" do 
     expect 'deified'.palindrome?
+  end 
+
+   it 'is a palindrome phrase' do 
+    expect 'A man, a plan, a canal-Panama'.palindrome?
   end
 end
