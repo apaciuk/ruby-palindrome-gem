@@ -10,6 +10,10 @@ RSpec.describe Ruby::Palindrome do
   end
 
   it "is not a palindrome" do
-    expect("racecar").not_to be_palindrome
+    expect !"Hello, World".palindrome?
+   end 
+
+  it "is a palindrome" do 
+    expect 'deified'.palindrome?
   end
 end
