@@ -8,4 +8,8 @@ RSpec.describe Ruby::Palindrome do
   it "does something useful" do
     expect(false).to eq(false)
   end
+
+  it "is not a palindrome" do
+    expect("racecar").not_to be_palindrome
+  end
 end

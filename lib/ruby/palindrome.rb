@@ -2,9 +2,8 @@
 
 require_relative "palindrome/version"
 
-module Ruby
-  module Palindrome
-    class Error < StandardError; end
-    # Your code goes here...
+class String 
+  def palindrome?
+    #self.reverse == self
   end
 end
